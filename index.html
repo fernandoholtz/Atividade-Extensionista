@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Extensionista - TI Verde</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0e7918;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #0c882b;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 100px;
+        }
+
+        nav {
+            background-color: #0c882b;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+        section {
+            background-color: #65B741;
+            padding: 60px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .image-right {
+            max-width: 40%;
+        }
+
+        .text-box {
+            max-width: 25%;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #0c882b;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            window.scrollTo({
+                top: section.offsetTop - document.querySelector('header').offsetHeight,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <img src="Logo TIVERDE.jfif" alt="Logo da Atividade Extensionista - TI Verde">
+    <h1 style="flex: 1;">TI Verde em Colombo</h1>
+</header>
+
+<section id="sobre">
+    <h2>Sobre a Atividade Extensionista</h2>
+    <div class="image-container">
+        <div class="text-box">
+            <p>
+                A reciclagem de lixo eletrônico desempenha um papel crucial na preservação ambiental e na promoção de práticas sustentáveis. A importância desse processo reside em diversos aspectos:
+
+                Minimização de Resíduos Tóxicos: Dispositivos eletrônicos frequentemente contêm substâncias tóxicas, como chumbo, mercúrio e cádmio. Quando descartados de maneira inadequada, esses materiais podem contaminar o solo e a água, causando danos significativos ao meio ambiente e à saúde humana. A reciclagem adequada ajuda a evitar a liberação dessas substâncias nocivas.
+
+                Conservação de Recursos Naturais: A reciclagem de lixo eletrônico permite a recuperação de materiais valiosos, como metais preciosos e minerais raros. Ao reutilizar esses recursos, reduz-se a necessidade de exploração de novas fontes, promovendo a conservação de recursos naturais finitos.
+
+                Redução do Impacto Ambiental: A produção de eletrônicos consome uma quantidade significativa de energia e recursos. Ao reciclar, diminuímos a demanda por novos materiais, reduzindo assim o impacto ambiental associado à extração, produção e transporte desses recursos.
+
+                Geração de Empregos Verdes: A indústria da reciclagem de lixo eletrônico não apenas contribui para a preservação ambiental, mas também cria oportunidades de emprego em setores sustentáveis. O processo de reciclagem requer mão de obra especializada, impulsionando o desenvolvimento de empregos verdes e apoiando a economia local.
+
+                Incentivo à Inovação Tecnológica: A reciclagem de eletrônicos muitas vezes envolve a desmontagem e separação de componentes. Esse processo pode gerar novos insights sobre design e engenharia, incentivando a inovação tecnológica para criar produtos mais eficientes e sustentáveis desde a fase inicial de produção.
+
+                Responsabilidade do Consumidor: A reciclagem de lixo eletrônico promove a conscientização entre os consumidores sobre a responsabilidade ambiental associada ao descarte de dispositivos eletrônicos. Isso incentiva práticas de consumo mais conscientes e a busca por opções mais sustentáveis.
+            </p>
+        </div>
+        <img src="foto01.jpg" alt="Imagem Atividade Extensionista">
+        <div class="text-box">
+            <p>
+                A TI Verde, ou Tecnologia da Informação Verde, refere-se a práticas e iniciativas que buscam integrar a tecnologia de maneira sustentável, visando reduzir o impacto ambiental da indústria de tecnologia da informação e comunicação (TIC). O objetivo principal é equilibrar o avanço tecnológico com a preservação ambiental, promovendo o uso eficiente de recursos e a minimização de resíduos.
+
+                Algumas características e abordagens comuns associadas à TI Verde incluem:
+
+                Eficiência Energética: Incentivar o desenvolvimento e a utilização de tecnologias mais eficientes em termos de consumo de energia, tanto na produção quanto no uso de dispositivos eletrônicos.
+
+                Reciclagem e Descarte Responsável: Estabelecer práticas para o descarte adequado de equipamentos eletrônicos, promovendo a reciclagem e a reutilização de materiais, e evitando a contaminação ambiental causada por substâncias tóxicas presentes em dispositivos obsoletos.
+
+                Design Sustentável: Incorporar princípios de sustentabilidade desde a concepção de produtos tecnológicos, considerando a durabilidade, a reciclabilidade e a eficiência no uso de recursos.
+
+                Virtualização e Computação em Nuvem: Promover a virtualização de servidores e o uso de serviços em nuvem, visando otimizar o uso de recursos físicos e reduzir a necessidade de infraestrutura local, resultando em menor consumo de energia.
+
+                Conscientização e Educação: Desenvolver campanhas e programas educacionais para conscientizar os usuários sobre práticas sustentáveis no uso da tecnologia, incentivando o descarte responsável e o consumo consciente.
+
+                Monitoramento Ambiental: Implementar sistemas de monitoramento para avaliar o impacto ambiental da infraestrutura tecnológica, permitindo ajustes contínuos para reduzir a pegada ecológica.
+            </p>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="06.jpg" alt="Imagem Atividade Extensionista" class="image-right">
+        <img src="05.jpg" alt="Imagem Atividade Extensionista" class="image-right">
+    </div>
+    <p>
+        A integração de práticas de TI Verde em iniciativas de reciclagem de lixo eletrônico desencadeia um impacto ambiental significativo e positivo. Ao unir esforços para conscientizar a comunidade sobre o descarte correto de dispositivos eletrônicos, a iniciativa não apenas aborda a problemática imediata, mas também promove a adoção de tecnologias mais sustentáveis.
+
+        A reciclagem de lixo eletrônico, dentro do contexto da TI Verde, torna-se um catalisador para a mudança de mentalidade, incentivando a população não apenas a descartar responsavelmente, mas também a repensar a relação com a tecnologia. Ao destacar a importância da reciclagem e da redução do desperdício eletrônico, a iniciativa contribui para a preservação de recursos naturais, a minimização de resíduos tóxicos e o estímulo à inovação tecnológica sustentável.
+
+        Assim, a sinergia entre a reciclagem de lixo eletrônico e os princípios da TI Verde não só combate o impacto ambiental negativo da tecnologia, mas também estabelece uma base para a construção de uma sociedade mais consciente, responsável e comprometida com a sustentabilidade, refletindo um caminho promissor para o equilíbrio entre avanço tecnológico e preservação ambiental.
+    </p>
+</section>
+
+<section id="campanha">
+    <h2>Campanha de Conscientização</h2>
+    <img src="foto02.jpg" alt="Imagem Campanha de Conscientização">
+    <p>
+        A campanha busca informar a comunidade sobre a importância de descartar corretamente os resíduos eletrônicos
+        para preservar o meio ambiente e incentivar práticas sustentáveis.
+        Para encontrar empresas especializadas na reciclagem de componentes eletrônicos, como celulares e computadores, você pode realizar uma pesquisa online usando palavras-chave específicas. Recomendo utilizar termos como "reciclagem de eletrônicos", "descarte responsável de celulares" ou "reciclagem de computadores". Certifique-se de incluir o nome da sua localidade para resultados mais relevantes. Além disso, verifique se existem programas de reciclagem oferecidos por fabricantes de dispositivos eletrônicos, pois muitos deles têm iniciativas para recolher e reciclar produtos antigos. Lembre-se sempre de escolher empresas certificadas e comprometidas com práticas ambientalmente responsáveis.
+    </p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>
+        Para mais informações, entre em contato conosco através do email: <a href="mailto:contato@atividadeextensionista.com">contato@atividadeextensionista.com</a>.
+    </p>
+</section>
+
+<footer>
+    &copy; 2023 Atividade Extensionista - TI Verde
+</footer>
+
+<!-- Adição do botão para retornar à primeira tela -->
+<button onclick="scrollToSection('sobre')" style="position: fixed; bottom: 20px; right: 20px; background-color: #0c882b; color: #fff; padding: 10px; cursor: pointer; border: none; border-radius: 5px;">Voltar ao Início</button>
+
+<script>
+    // Seu código JavaScript existente aqui...
+
+    // Adicionado um identificador à última seção para usar no botão de retorno
+    var lastSection = document.getElementById('contato');
+</script>
+
+</body>
+</html>
