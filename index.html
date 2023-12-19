@@ -59,14 +59,17 @@
         section img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            margin-bottom: 4vw;
         }
 
         .image-container {
             display: flex;
             justify-content: space-between;
             margin-bottom: 20px;
+            margin-top: 20px;
         }
+
 
         .image-right {
             max-width: 40%;
@@ -76,6 +79,7 @@
             max-width: 25%;
             margin-bottom: 20px;
             text-align: justify;
+            margin-top: 20px;
         }
 
         h2 {
@@ -92,6 +96,50 @@
             color: #fff;
             padding: 10px;
             text-align: center;
+        }
+        .i-container{
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .i-right{
+           max-width: 60%;
+           height: 70%;
+
+        }
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header img {
+                margin-bottom: 10px;
+            }
+
+            nav {
+                justify-content: center;
+            }
+
+            .image-container {
+                flex-direction: column;
+            }
+
+            .image-right {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .text-box {
+                max-width: 100%;
+            }
+            .i-container img {
+                flex-direction: column;
+            }
+            .i-right{
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
         }
     </style>
     <script>
@@ -130,8 +178,8 @@
 
                 Responsabilidade do Consumidor: A reciclagem de lixo eletrônico promove a conscientização entre os consumidores sobre a responsabilidade ambiental associada ao descarte de dispositivos eletrônicos. Isso incentiva práticas de consumo mais conscientes e a busca por opções mais sustentáveis.
             </p>
-        </div>
-        <img src="foto01.jpg" alt="Imagem Atividade Extensionista">
+        </div class="i-container">
+        <img src="foto01.jpg" alt="Imagem Atividade Extensionista" class="i-right">
         <div class="text-box">
             <p>
                 A TI Verde, ou Tecnologia da Informação Verde, refere-se a práticas e iniciativas que buscam integrar a tecnologia de maneira sustentável, visando reduzir o impacto ambiental da indústria de tecnologia da informação e comunicação (TIC). O objetivo principal é equilibrar o avanço tecnológico com a preservação ambiental, promovendo o uso eficiente de recursos e a minimização de resíduos.
